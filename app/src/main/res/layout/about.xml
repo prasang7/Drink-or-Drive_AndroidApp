@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="sans-serif-light"
+            android:padding="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="This application is your get-me-home buddy that will get you through the night to your home safely without having to worry about drink and drive situation.\n\nThis app will call help in case you get too drunk to drive, either by sending sms of your location to your friend or by helping you calling him with just one click, or providing you with nearby cab, taxi or public transport with the help of google search according to your location. Please read the disclaimer carefully before using the application.\n\nAlcohol can be lethal. Never drink and drive. DRINK RESPONSIBLY AND DRIVE SAFELY."
+            android:textSize="20dp"
+            android:id="@+id/tv_About_us"
+            android:autoText="true"
+            android:background="@android:drawable/alert_light_frame"
+            android:textColor="#ff000000" />
+    </ScrollView>
+
+</LinearLayout>
